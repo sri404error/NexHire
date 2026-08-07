@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'screens/welcome_screen.dart';
 void main() {
   runApp(const NexHireApp());
 }
@@ -16,7 +16,7 @@ class NexHireApp extends StatelessWidget {
         useMaterial3: true,
         fontFamily: 'Poppins',
       ),
-      home: const SplashScreen(),
+      home: const WelcomeScreen(),
     );
   }
 }
